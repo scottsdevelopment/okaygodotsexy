@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ODS Social Links</title>
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Slackey|Capriola" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --bg-color: #1a1a1a;
+            --container-bg: #2c2c2c;
+            --button-bg: #444;
+            --text-color: white;
+            --shadow-color: rgba(255, 255, 255, 0.1);
+        }
+
+        /* Base */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            height: 100%;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: "Cabin Sketch", "Slackey", "Capriola";
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 600px;
+            background: var(--container-bg);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px var(--shadow-color);
+        }
+
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+
+        .full-name {
+            font-size: 26px;
+            font-weight: bold;
+        }
+
+        .tag-line {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .expanded-thoughts {
+            font-size: 16px;
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+
+        .contact a {
+            display: block;
+            background: var(--button-bg);
+            color: var(--text-color);
+            text-decoration: none;
+            font-size: 20px;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+            transition: background 0.3s ease, transform 0.2s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .contact a i {
+            margin-right: 12px;
+            font-size: 22px;
+        }
+
+        .contact a:hover {
+            transform: scale(1.05);
+        }
+
+        .contact a[href*="soundcloud"]:hover {
+            background: #ff5500;
+        }
+
+        .contact a[href*="twitch"]:hover {
+            background: #6441a5;
+        }
+
+        .contact a[href*="discord"]:hover {
+            background: #7289da;
+        }
+
+        .contact a[href*="tiktok"]:hover {
+            background: #000;
+        }
+
+        .contact a[href*="instagram"]:hover {
+            background: #E1306C;
+        }
+
+        .contact a[href*="twitter"]:hover {
+            background: #1DA1F2;
+        }
+
+        .contact a[href*="onlyfans"]:hover {
+            background: #00AFF0;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 14px;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://avatars.githubusercontent.com/u/51915366?v=4" alt="Odell Scott" class="profile-pic">
+        <h1 class="full-name">Odell Scott</h1>
+        <p class="tag-line">Entertainer from Detroit, MI.<br/><br/>I am a dreamer, a make believer, dance like everyone is watching, live for today, and pray for tomorrow.</p>
+        <h2>Odell's Social Links!</h2>
+        <div class="contact">
+            <a href="https://soundcloud.com/okaygodotsexy" target="_blank"><i class="fab fa-soundcloud"></i> Soundcloud</a>
+            <a href="https://twitch.tv/OdsScott" target="_blank"><i class="fab fa-twitch"></i> Twitch</a>
+            <a href="https://discord.gg/m7NAwgAUDv" target="_blank"><i class="fab fa-discord"></i> Discord</a>
+            <a href="https://www.tiktok.com/@OdsScott" target="_blank"><i class="fab fa-tiktok"></i> TikTok</a>
+            <a href="https://instagram.com/ScottOds" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+            <a href="https://twitter.com/OdsScott" target="_blank"><i class="fab fa-twitter"></i> X</a>
+            <a href="https://onlyfans.com/okaygodotsexy" target="_blank"><i class="fas fa-lock"></i> OnlyFans 21+</a>
+        </div>
+        <p class="footer">© 2015 - 2025 okaygo.sexy</br>All rights reserved.</p>
+    </div>
+</body>
+</html>
